@@ -77,7 +77,7 @@ module.exports = function (app) {
         title: "XDR Sensor definitions",
         items: {
           type: "object",
-          required: [ 'name', 'expression', 'sk_path' ],
+          required: [ 'name', 'expression', 'sk_path', 'decimal' ],
           properties: {
             type: {
               type: 'string',
